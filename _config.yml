@@ -1,8 +1,8 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that. For
-# technical reasons, this file is *NOT* reloaded automatically when you use
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
@@ -46,13 +46,14 @@ author:
   scopus           : # URL
   zotero           : # URL
 
+
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
   github           : "academicpages"
   kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")   
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
@@ -204,6 +205,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+
 # Markdown Processing
 kramdown:
   input: GFM
@@ -214,6 +216,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
 
 # These settings control the types of collections used by the template
 collections:
@@ -286,16 +289,19 @@ defaults:
       author_profile: true
       share: true
 
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 # Plugins
 plugins:
@@ -306,6 +312,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
+
 # Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
@@ -315,6 +322,7 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
+
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -323,6 +331,7 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
@@ -341,6 +350,7 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name
 #     tag: /tags/:name
+
 
 # HTML Compression
 # - https://jch.penibelst.de/
